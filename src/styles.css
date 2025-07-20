@@ -16,6 +16,16 @@ body {
     text-align: center;
 }
 
+.data.error {
+    display: flex;
+    background-color: rgb(163, 66, 66);
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
 thead {
     text-align: left;
     background-color: rgb(148, 244, 244);
@@ -66,4 +76,9 @@ form {
     100% {
         transform: rotate(360deg);
     }
+}
+
+img {
+    height: 30px;
+    width: 40px;
 }
